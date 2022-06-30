@@ -40,7 +40,7 @@
   "memory": "512",
   "taskRoleArn": null,
   "compatibilities": ["EXTERNAL", "EC2"],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:051198162897:task-definition/pet-task:3",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:051198162897:task-definition/pet-task:5",
   "family": "pet-task",
   "requiresAttributes": [
     {
