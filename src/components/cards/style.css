@@ -1,0 +1,47 @@
+.product-title{
+    font-family: Russo One, sans-serif;
+    color: #AE726A;
+    position: absolute;
+    margin: 0 0 0 90px;
+    padding: 3%;
+}
+.card-container {
+    display: grid;
+    gap: 1rem;
+    /* grid-auto-rows: 22rem; */
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+    padding: 10%;
+    background-color:#FFEDEA;
+}
+.card-product{
+    background:white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 .1rem rgba(0,0,0, .1);
+    cursor: pointer;
+}
+
+.card-image{
+    width: 200px;
+    height: 200px;
+    background-color:white;
+    padding: 10%;
+}
+.card-body{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    font-family: 'Russo One', sans-serif;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.card-price{
+    font-size:20px;
+    color: #AE726A;
+}
+

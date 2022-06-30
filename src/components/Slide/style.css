@@ -1,0 +1,113 @@
+.principal-container{
+    position: relative;
+
+}
+.container-slide{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+.slide{
+    min-width: 100%;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow: hidden;
+    transition: .3s ease all;
+    z-index: 10;
+    max-height: 500px;
+
+}
+.description-slide{
+    font-size: 84px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.description-image{
+    font-family: 'Russo One', sans-serif;
+    top: 20vw;
+    left: 16vw;
+
+    /* padding: 15%; */
+    text-align: center;
+    /* position: absolute; */
+    bottom: 0;
+    color: white;
+}
+p.description-image{
+    display: inline;
+    font-size: 7vw;
+    position: absolute;
+
+}
+.buy-container {
+    top: 250px;
+    left: 290px;
+    max-width: 100%;
+
+}
+.btn-buy{
+    background-color: #A36B64;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    top: 50%;
+    left: 21%;
+    color: white;
+    width: 25vw;
+    height: 5vw;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    transition: .3s ease all;
+    cursor: pointer;
+
+}
+img{
+    max-width: 100%;
+    width: 5000px;
+    height: 400px;
+}
+.controls{
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    color: white;
+}
+.btn-left{
+    pointer-events: all;
+    background: none;
+    border: none;
+    cursor: pointer;
+    overflow: none;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    transition: .3s ease all;
+    left: 0;
+    color: white;
+
+}
+.btn-right{
+    pointer-events: all;
+    background: none;
+    border: none;
+    cursor: pointer;
+    overflow: none;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    transition: .3s ease all;
+    right: 0;
+    color: white;
+    
+}
