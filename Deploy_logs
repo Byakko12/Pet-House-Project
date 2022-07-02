@@ -2,3 +2,4 @@ Deploying in 02/07/2022: Destroyed and created the service on ECS cluster
 Deploying in 02/07/2022: Modified task to specify the CPU and memory units
 Deploying in 02/07/2022: Task loop hotfix
 Deploying in 02/07/2022: Deploying in linux
+Deploying in 02/07/2022: Rebuild cluster
