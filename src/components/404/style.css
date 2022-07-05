@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.img-404{
+    width: 50%;
+
+}
+.error-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.title-error{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+
+
+}
+.button-404{
+    padding: 15px 30px;
+    border-radius: 30px;
+    width: 15vw;
+    border: none;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    background-color: #AE6E66;
+    text-align: center;
+}
+.btn-back-404{
+    border: none;
+    background-color: #AE6E66;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,31 @@
+import React from 'react';
+import Logo from "../src/pata.png"
+
+export default function Navbar() {
+return (
+    <div className="navbar">
+       
+        <a href="/" className="home-title">
+        <img  alt="" href={Logo}></img>
+            PetHouse
+        </a>
+        
+        <ul>
+            <li>
+            <a href="/">Home</a>
+            </li>
+            <li>
+            <a href="/">Products</a>
+            </li>
+            <li>
+            <a href="/"><img  alt="" href={Logo}></img>Car</a>
+            </li>
+            <li>
+            <a href="/"><img  alt="" href={Logo}></img>User</a>
+            </li>
+        </ul>
+    </div>
+)
+}
+
+

@@ -1,0 +1,61 @@
+form{
+    margin: auto;
+  }
+  .row{
+    padding: 170px 0;
+    font-family: "Montserrat";
+    display: flex; 
+    flex-direction: row;
+    /*
+    margin-right: -15px;
+    margin-left: -15px;*/
+  }
+  .title-l{
+    color: #A06650;
+    text-align: center;
+    margin: 40px 0 40px 0;
+  }
+  .form-control{
+    font-family: 'Urbanist';
+    display: block;
+    width: 280px;
+    height: 40px;
+    padding: .588rem .75rem;
+    margin: 10px 0; 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+  }
+  form.form-login-one {
+    background-color: #EDE9D0;
+    border-radius: 30px;
+    padding: 15px;
+}
+  .btn-centrado{
+    margin: 20px 0;
+    align-items: center;
+    display: grid;
+  }
+  .btn-form{
+    margin: 10px 0;
+    display: inline-block;
+    border: none;
+    height: 90%;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color:#A06650;
+    text-decoration: none;
+  }
+  .forgot-pass{
+    text-align: center;
+    color: #B88572;
+    text-decoration: none;
+  }
+  .forgot-pass:hover{
+    color: #f27405;
+  }
